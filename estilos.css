@@ -1,0 +1,190 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+
+    position: relative;
+    max-width: 100vw;
+}
+
+
+header img{
+
+    background-image: url(./imagenes/pexels-tima-miroshnichenko-6498787.jpg);
+    display: inline-block;
+    width: 100%;
+    height: 35em;
+
+
+}
+
+header h1{
+
+    font-size: 3em;
+    color: antiquewhite;
+    position: absolute;
+    display: inline-block;
+    left: 43%;
+
+}
+
+.navegador {
+
+    font-size:x-large;
+    font-style: oblique;
+    color: rgba(150, 198, 209, 0.949);
+    position: absolute;
+    top: 13em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navegador ul li {
+    
+    padding: 1rem 1.5rem;
+    display: inline-block;
+
+}
+
+.navegador ul li a{
+
+    color: rgb(255, 255, 255);
+
+}
+
+main {
+
+    position: relative;
+    display: inline-block;
+    text-align:left
+
+}
+
+main img{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.introduccion {
+
+    background-color: antiquewhite;
+    font-size: 1.3em;
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    top: 1em;
+    left: 1em;
+
+}
+
+
+
+.introduccion h1 {
+
+    font-size: 240%;
+    font-style: italic;
+    color:rgb(9, 6, 51);
+    padding: 2%;
+
+}
+
+.introduccion p{
+
+    font-size: 150%;
+
+}
+
+.benefits {
+
+    background-color: antiquewhite;
+    font-size: 1.3em;
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    top: -60em;
+    left: 33em;
+    
+}
+
+.benefits h1{
+
+    font-size: 240%;
+    font-style: italic;
+    color:rgb(9, 6, 51);
+    padding: 2%;
+    
+}
+
+.benefits p{
+
+    font-size: 150%;
+
+}
+
+.funcionamiento {
+
+    background-color: antiquewhite;
+    font-size: 1.3em;
+    display: inline-block;
+    position: absolute;
+    width: 40%;
+    top: 53em;
+    left: .5em;
+
+
+}
+
+.funcionamiento h1 {
+
+    font-size: 240%;
+    font-style: italic;
+    color:rgb(9, 6, 51);
+    padding: 2%;
+
+}
+
+.funcionamiento p{
+
+    font-size: 150%;
+}
+
+footer {
+
+    position: relative;
+    display: inline-block;
+    text-align: center;  
+
+}
+
+footer img{
+
+    background-image: url(./imagenes/pexels-eugene-capon-1261816.jpg);
+    width: 100vw;
+    height: 80vh;
+    top: -34.3em;
+    left: 0em;
+    display: inline-block;
+    position: absolute;
+}
+
+footer ul li {
+
+    font-size: 1.3em;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    top: -2em;
+    left: 0em;
+
+}
+
